@@ -555,7 +555,6 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            /* text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
         }
         
         .stats-label {
