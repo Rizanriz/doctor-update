@@ -399,93 +399,84 @@
         }
 
         
-               .medical-services {
-            background-color: #5a243d;
-            color: white;
-            padding: 60px 20px;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        
-        .header {
-            text-align: center;
-            margin-bottom: 50px;
-        }
-        
-        .header h1 {
-            font-size: 2.5rem;
-            color: #DCBD89;
-            margin-bottom: 20px;
-            line-height: 1.3;
-        }
-        
-        .header p {
-            font-size: 1.1rem;
-            max-width: 800px;
-            margin: 0 auto;
-            line-height: 1.6;
-            opacity: 0.9;
-        }
-        
-        .services-grid {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 30px;
-            margin-top: 40px;
-        }
-        
-        .service-card {
-            flex: 1 1 300px;
-            background-color: rgba(255, 255, 255, 0.05);
-            border-radius: 10px;
-            overflow: hidden;
-            transition: transform 0.3s ease-in-out;
-            text-align: center;
-        }
-        
-        .service-card:hover {
-            transform: translateY(-10px);
-        }
-        
-        .service-image {
-            width: 100%;
-            height: 300px;
-            overflow: hidden;
-        }
-        
-        .service-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: top;
-            display: block;
-        }
-        
-        .service-content {
-            padding: 25px;
-        }
-        
-        .service-content h3 {
-            font-size: 1.5rem;
-            color: #DCBD89;
-            margin-bottom: 15px;
-        }
-        
-        .service-content p {
-            color: rgba(255, 255, 255, 0.8);
-            line-height: 1.6;
-        }
-        
-        .divider {
-            width: 60px;
-            height: 3px;
-            background-color: #DCBD89;
-            margin: 20px auto;
-        }
+  .medical-services {
+        background-color: #5a243d;
+        color: white;
+        padding: 60px 20px;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .header {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .header h1 {
+        font-size: 2.5rem;
+        color: #DCBD89;
+        margin-bottom: 20px;
+        line-height: 1.3;
+    }
+
+    /* Grid Layout */
+    .services-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .service-card {
+        background-color: rgba(255, 255, 255, 0.05);
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.3s ease-in-out;
+        text-align: center;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-card:hover {
+        transform: translateY(-10px);
+    }
+
+    .service-image {
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+    }
+
+    .service-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .service-content {
+        padding: 20px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .service-content h3 {
+        font-size: 1.5rem;
+        color: #DCBD89;
+        margin-bottom: 10px;
+    }
+
+    .service-content p {
+        color: rgba(255, 255, 255, 0.8);
+        line-height: 1.6;
+    }
 
         
         .hero-section {
@@ -708,5 +699,8 @@
             
             .section-heading p {
                 font-size: 1rem;
+            }
+            .stats-number {
+                font-size: 64px;
             }
         }
